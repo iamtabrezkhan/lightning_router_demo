@@ -11,6 +11,8 @@ export default class Home extends Lightning.Component {
         text: {
           text: "Home page",
           textColor: 0xffffffff,
+          fontFace: "Regular",
+          fontSize: 48,
         },
       },
     };

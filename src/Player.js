@@ -11,6 +11,8 @@ export default class Player extends Lightning.Component {
         text: {
           text: "Player page",
           textColor: 0xffffffff,
+          fontFace: "Regular",
+          fontSize: 48,
         },
       },
     };
