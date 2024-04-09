@@ -1,4 +1,4 @@
-import { Lightning } from "@lightningjs/sdk";
+import { Lightning, Colors } from "@lightningjs/sdk";
 
 export default class Player extends Lightning.Component {
   static _template() {
@@ -7,7 +7,7 @@ export default class Player extends Lightning.Component {
         rect: true,
         w: 1920,
         h: 1080,
-        color: 0xff00ffff,
+        color: Colors("blue").get(),
         text: {
           text: "Player page",
           textColor: 0xffffffff,

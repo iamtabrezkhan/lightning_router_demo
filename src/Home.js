@@ -1,4 +1,4 @@
-import { Lightning, Router } from "@lightningjs/sdk";
+import { Lightning, Router, Colors } from "@lightningjs/sdk";
 
 export default class Home extends Lightning.Component {
   static _template() {
@@ -7,7 +7,7 @@ export default class Home extends Lightning.Component {
         rect: true,
         w: 1920,
         h: 1080,
-        color: 0xff0000ff,
+        color: Colors("red").get(),
         text: {
           text: "Home page",
           textColor: 0xffffffff,
