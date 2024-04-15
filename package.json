@@ -11,10 +11,15 @@
     ]
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "upload": "metro upload",
+    "dist": "lng dist",
+    "build": "lng build"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
+    "@lightningjs/cli": "^2.14.1",
+    "@metrological/sdk": "^1.0.2",
     "babel-eslint": "^10.0.3",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
