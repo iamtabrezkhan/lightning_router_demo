@@ -2,6 +2,7 @@
   "name": "com.domain.app.demoapprouter",
   "description": "demo_app_router",
   "dependencies": {
+    "@firebolt-js/sdk": "^1.1.0",
     "@lightningjs/sdk": "^5.5.1"
   },
   "lint-staged": {
@@ -18,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
-    "@lightningjs/cli": "^2.14.1",
+    "@lightningjs/cli": "^2.14.0",
     "@metrological/sdk": "^1.0.2",
     "babel-eslint": "^10.0.3",
     "eslint": "^8.21.0",
